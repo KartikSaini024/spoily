@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <script defer src="js/main.js"></script>
+    <!-- <script defer src="js/test.js"></script> -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <title>Website</title>
+</head>
+
+<body>
+    <main style="max-width: 1920px;">
+
+
+        <!-- Header -->
+        <!-- <div class="header">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img id="headerlogoimage" src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu" id="menu-list">
+                    <a class="menu-items">Home</a>
+                    <a class="menu-items" href="portfolio.html">About</a>
+                    <a class="menu-items">Contact</a>
+                    <a class="menu-items">Donate</a>
+                </div>
+                <img id="menu-icon" src="images/menu.png" alt="menu icon" onclick="toggleMenu()">
+            </div> -->
+
+        <div class="face">
+            <div class="hovering" style="position: absolute;">
+                <nav class="navbar">
+                    <a href="https://www.instagram.com/spoiledbrat.24" target="_blank">Instagram <img
+                            src="images/insta.png" alt=""></a>
+                    <!-- <a href="">Contact</a>
+                        <a href="">About Me</a> -->
+                </nav>
+            </div>
+
+            <a href="#banner"><img src="images/backtotop.png" class="hidden2" id="scrollToTopBtn"></a>
+
+            <div class="banner" id="banner">
+                <video src="vids/banner1.mp4" id="banner-bg" autoplay muted loop></video>
+                <div class="banner-texts">
+                    <div class="hero-logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="banner-slogans">
+                        <h1>From Rides to Reels, We Make Your Story Cinematic</h1>
+                        <a href="#divider" class="hero-btn" style="text-decoration: none;">Explore...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="divider" class="divider"></div>
+        <img id="bg-img" src="images/lines.png" alt="">
+
+        <div class="hero-container text" id="hero">
+            <div class="hero1 hidden">
+                <h1>Cars are meant to be CINEMATIC</h1>
+                <br>
+                <p>And we make it simple for you...</p>
+                <div class="cards">
+                    <div>
+                        <img src="images/card1.png" alt="">
+                        <p>Choose your service</p>
+                    </div>
+                    <div>
+                        <img src="images/card2.png" alt="">
+                        <p>Provide Details</p>
+                    </div>
+                    <div>
+                        <img src="images/card3.png" alt="">
+                        <p>Get Quality Content</p>
+                    </div>
+                </div>
+                <button class="hero-btn dynamic-width" onclick="scrollToElement('contact')">Get in touch &nbsp <img src="images/wand.png" alt=""></button>
+            </div>
+            <div class="hero-2">
+                <img src="images/purple-sphere.png" id="purple-sphere" alt="">
+                <img class="hero-2-pics" src="images/4.png" id="hero-car">
+            </div>
+
+        </div>
+
+
+        <!-- portfolio content -->
+
+
+
+
+        <div id="me" class="me">
+            <div class="about-me hidden">
+                <h1>Who is SpoiledBrat?</h1>
+                <br>
+                <h3 id="whos-spoily">I am a <span id="whoami"></span></h3>
+                <br>
+                <p>Residing in India, I'm a skilled supercar videographer specializing in capturing the beauty from the world of exotic automobiles. My expertise lies in professional-grade cinematography of automotive culture, ensuring that your reel truly reflects the essence of supercar lifestyle</p>
+                <br>
+                <p>I primarily work on:</p>
+                <div class="cards">
+                    <div>
+                        <img src="images/after-effects.png" alt="">
+                        <p>Adobe After Effects</p>
+                    </div>
+                    <div>
+                        <img src="images/photoshop.png" alt="">
+                        <p>Adobe Photoshop</p>
+                    </div>
+                    <div>
+                        <img src="images/premiere-pro.png" alt="">
+                        <p>Adobe Premier Pro</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floating-container">
+                <div>
+                    <img id="float1" src="images/3-bg.jpg" alt="">
+                    <img id="float2" src="images/3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bg-container">
+            <div class="bubbles">
+                <span style="--i:48"></span>
+                <span style="--i:90"></span>
+                <span style="--i:40"></span>
+                <span style="--i:45"></span>
+                <span style="--i:12"></span>
+                <span style="--i:19"></span>
+                <span style="--i:70"></span>
+                <span style="--i:83"></span>
+                <span style="--i:49"></span>
+                <span style="--i:78"></span>
+                <span style="--i:90"></span>
+                <span style="--i:30"></span>
+                <span style="--i:40"></span>
+                <span style="--i:65"></span>
+                <span style="--i:82"></span>
+                <span style="--i:19"></span>
+                <span style="--i:15"></span>
+                <span style="--i:74"></span>
+                <span style="--i:87"></span>
+                <span style="--i:96"></span>
+                <span style="--i:6"></span>
+            </div>
+        </div>
+
+        <div class="collaboration hidden2">
+            <h1 style="text-align: center; padding: 3%; font-size: 3rem;">Key Collaborations with</h1>
+
+            <div class="roles-container">
+                <div class="roles" id="r1"> <img src="images/ferrari-logo.png" alt=""></div>
+                <div class="roles" id="r2"> <img src="images/bmw-logo.png" alt=""></div>
+                <div class="roles" id="r3"> <img id="audi" src="images/audi-logo.png" alt=""></div>
+                <div class="roles" id="r1"> <img src="images/ducati-logo.png" alt=""></div>
+
+            </div>
+            <div class="roles-container">
+                <div class="roles" id="r2"> <img src="images/lambo-logo.png" alt=""></div>
+                <div class="roles" id="r3"> <img src="images/rolls-logo.png" alt=""></div>
+                <div class="roles" id="r2"> <img src="images/porshe-logo.png" alt=""></div>
+            </div>
+        </div>
+        <div class="reviews">
+
+
+
+            <div class="slide-container">
+                <div class="slide-wrapper box-shadow">
+                    <img id="slide1" src="images/1.jpg" alt="">
+                    <img id="slide2" src="images/2.jpg" alt="">
+                    <img id="slide3" src="images/3.jpg" alt="">
+                    <img id="slide4" src="images/4.jpg" alt="">
+                    <img id="slide5" src="images/5.jpg" alt="">
+                </div>
+                <div class="wallpaper-text text">
+                    <h1 style="font-size: 3rem;">Like my work?</h1>
+                    <h1>Support Me and get Exclusive Wallpapers</h1>
+                    <p>Download high-quality wallpapers, shot and edited by myself.</p>
+                    <button class="hero-btn dynamic-width">Download &nbsp <img src="images/download.png"
+                            style="filter: invert(100%);" alt=""></button>
+                </div>
+            </div>
+
+
+
+
+            <!-- contact -->
+            <div class="container">
+
+
+                <div class="contact-container text hidden" id="contact">
+                    <h1>Contact</h1>
+                    <p>Let's collaborate, you can get in touch via email or Instagram DMs</p>
+
+                    <form class="" action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="d400c213-ac02-4c48-820b-92bd4bbd5cfa">
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." required />
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email.." required />
+
+                        <label for="subject">Details</label>
+                        <textarea id="subject" name="subject" placeholder="Write your message.." style="height: 200px"
+                            required></textarea>
+
+                        <button class="hero-btn" type="submit">Submit</button>
+                    </form>
+                </div>
+
+
+
+                <div class="faq-section hidden3">
+
+                    <div style="display: flex;flex-direction: column; justify-content: space-evenly;">
+                        <h1 id="faq">FAQs</h1>
+                        <div>
+                            <details>
+                                <summary>Where do you operate?</summary>
+                                <p>I primarily work in Delhi and Chandigarh physically. Thus, I am limited to work in
+                                    nearby areas in India. However, when it comes to digital services like Video or
+                                    Photo editing, reels or posts, I'm available to work remotely from around the world!
+                                </p>
+                            </details>
+                        </div>
+                        <div>
+                            <details>
+                                <summary>What is your price?</summary>
+                                <p>It depends on the type of work and. Photshoots typically cost around ₹10,000. 1 minute video reels costs around ₹7,000. Bigger projects need to be discussed first.</p>
+                            </details>
+                        </div>
+                        <div>
+                            <details>
+                                <summary>Do you only work online?</summary>
+                                <p>Online collaboration is possible for photo or video editing. However, I can also shoot content physically in Chandigarh and Delhi. 
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <footer>
+                <span>&copy; 2024 SpoiledBrat24, All Rights Reserved</span>
+            </footer>
+        </div>
+    </main>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
