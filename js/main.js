@@ -88,3 +88,8 @@ const observerforTOP = new IntersectionObserver((entries) => {
 // Specify the target element to observe
 const tohidefrom = document.querySelectorAll(".face")
 tohidefrom.forEach((el) => observerforTOP.observe(el)); // Call observe() on each target element
+
+function downloadPage() {
+    window.open('https://krispro.gumroad.com/l/test', '_blank');
+}
+
